@@ -1,0 +1,15 @@
+<section>
+  <div class="container">
+    <h1 class="products-title">New Arrivals</h1>
+    <div class="products-list">
+      <div *ngFor="let product of products" class="card">
+        <div class="card-content" [ngStyle]="{'background-color': isDarkTheme ? '#5eda5e' : '#3b5b2d'}">
+          <img class="product-image" [src]="product.imgSrc" [alt]="">
+          <h2 class="product-title">{{ product.name | translate}}</h2>
+          <p class="product-description">{{ product.description | translate}}</p>
+          <p class="product-price">{{ product.price | currency:'USD':'symbol':'1.2-2' }}</p>
+        </div>    
+      </div>
+    </div>
+  </div>
+</section>

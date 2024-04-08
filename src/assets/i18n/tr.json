@@ -1,0 +1,28 @@
+{
+    "fruit_title": "Meyveler",
+    "vegetable_title": "Sebzeler",
+    "drink_title": "İçecekler",
+    "login": "Giriş Yap",
+    "register": "Kaydol",
+    "light_mode": "Aydınlık Mod",
+    "dark_mode": "Karanlık Mod",
+    "products": {
+      "product1": {
+        "name": "Elma",
+        "description": "Açıklama 1"
+      },
+      "product2": {
+        "name": "Ürün 2",
+        "description": "Açıklama 2"
+      },
+      "product3": {
+        "name": "Ürün 3",
+        "description": "Açıklama 3"
+      },
+      "product4": {
+        "name": "Ürün 4",
+        "description": "Açıklama 4"
+      }
+    }
+  }
+  

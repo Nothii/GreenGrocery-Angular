@@ -1,0 +1,28 @@
+{
+    "fruit_title": "Fruits",
+    "vegetable_title": "Vegetables",
+    "drink_title": "Drinks",
+    "login": "Login",
+    "register": "Register",
+    "light_mode": "Light Mode",
+    "dark_mode": "Dark Mode",
+    "products": {
+      "product1": {
+        "name": "Apple",
+        "description": "Description 1"
+      },
+      "product2": {
+        "name": "Product 2",
+        "description": "Description 2"
+      },
+      "product3": {
+        "name": "Product 3",
+        "description": "Description 3"
+      },
+      "product4": {
+        "name": "Product 4",
+        "description": "Description 4"
+      }
+    }
+  }
+  
