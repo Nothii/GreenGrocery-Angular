@@ -23,6 +23,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
     // Subscribe to language changes
     this.langChangeSubscription = this.translate.onLangChange.subscribe(() => {
+      this.isDarkTheme = localStorage.getItem('theme') === "Dark";
       this.updateProducts();
     });
   }
