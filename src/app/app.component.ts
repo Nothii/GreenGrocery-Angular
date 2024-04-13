@@ -3,6 +3,7 @@ import { ProductService } from './product.service';
 import { Product } from './product.model';
 import { TranslateService } from '@ngx-translate/core';
 import { Renderer2 } from '@angular/core';
+import { OwlOptions } from 'ngx-owl-carousel-o';
 
 @Component({
   selector: 'app-root',
@@ -86,5 +87,30 @@ export class AppComponent implements OnInit {
     cardContents.forEach(cardContent => {
         this.renderer.setStyle(cardContent, 'background-color', cardBackground);
     });
+  }
+
+  customOptions: OwlOptions = {
+    loop: true,
+    mouseDrag: false,
+    touchDrag: false,
+    pullDrag: false,
+    dots: true,
+    navSpeed: 700,
+    navText: ['', ''],
+    responsive: {
+      0: {
+        items: 1
+      },
+      400: {
+        items: 2
+      },
+      740: {
+        items: 3
+      },
+      940: {
+        items: 4
+      }
+    },
+    nav: true
   }
 }

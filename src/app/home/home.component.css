@@ -3,19 +3,12 @@
     border-radius: 5px;
 }
 
-.products-list {
-    display: flex;
-    gap: 20px; /* Adjust the gap value as needed */
-}
-
 .card {
-    /* Add styling for card container */
-    width: calc(33.33% - 20px); /* Adjust the width and margin as needed */
+    width: calc(33.33% - 20px);
     margin: 10px;
 }
 
 .card-content {
-    /* Add styling for card content */
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

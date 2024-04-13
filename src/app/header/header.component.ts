@@ -22,7 +22,7 @@ export class HeaderComponent {
   }
 
   ngOnInit(): void {
-    this.isDarkTheme = localStorage.getItem('theme') === "Dark";
+    this.isDarkTheme = localStorage.getItem('theme') === "Dark" ? true : false;
     this.translate.get('assets/img/crescent-moon.png').subscribe((res: string) => {
       this.dark_mode = res;
     });
